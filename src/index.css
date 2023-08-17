@@ -22,14 +22,14 @@
   border-radius: 4px;
 }
 
-.row span {
+.row button {
   box-sizing: border-box;
   border: solid 0.5px rgb(237, 237, 240);
   font-size: large;
   font-weight: 700;
 }
 
-.row span:not(.full) {
+.row button:not(.full) {
   width: 100%;
   background-color: lightgray;
   color: black;
@@ -42,14 +42,14 @@
   justify-content: flex-start;
 }
 
-.row:last-child span:first-child {
+.row:last-child button:first-child {
   flex: 1 1 50%;
 }
 
-.row:last-child span:not(:first-child) {
+.row:last-child button:not(:first-child) {
   flex: 1 1 calc(50% / 2);
 }
 
-.row:not(:first-child) span:last-child {
+.row:not(:first-child) button:last-child {
   background-color: darkorange;
 }

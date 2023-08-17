@@ -1,9 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Button = () => (
+const Button = ({ data }) => (
   <div className="row">
-    <span className="full">0</span>
+    <span className="full">{data}</span>
   </div>
 );
+
+Button.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export default Button;

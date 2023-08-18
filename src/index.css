@@ -1,7 +1,43 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: auto;
+}
+
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  min-height: 400px;
+}
+
+.quote-author {
+  padding: 1.5rem;
+  width: 100%;
+  height: 100%;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkorange;
+}
+
+.quote {
+  color: darkorange;
+  font-size: 1.5rem;
+  margin: auto;
+  max-width: 80%;
+}
+
 .container {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
-  width: 600px;
+  width: 500px;
   grid-gap: 0.5px;
   margin: 5rem auto;
 }
@@ -52,4 +88,24 @@
 
 .row:not(:first-child) button:last-child {
   background-color: darkorange;
+}
+
+.container .row button:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+.container .row button:active {
+  background-color: rgb(3, 77, 77);
+  color: white;
+}
+
+.row:not(:first-child) button:last-child:hover {
+  background-color: rgb(163, 50, 16);
+  color: white;
+}
+
+.row:not(:first-child) button:last-child:active {
+  background-color: rgb(26, 7, 1);
+  color: white;
 }

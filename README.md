@@ -33,7 +33,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
   <ul>
-    <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML">React</a></li>
+    <li><a href="https://react.dev/learn">React</a></li>
   </ul>
 
 ### Key Features <a name="key-features">

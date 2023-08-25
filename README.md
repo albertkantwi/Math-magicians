@@ -44,7 +44,9 @@ Some of the key features:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<p align="right">(<a href="https://math-magicians-2db8.onrender.com/">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

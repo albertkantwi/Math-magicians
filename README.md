@@ -46,9 +46,7 @@ Some of the key features:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Go live
-
-<p align="right">(<a href="https://math-magicians-2db8.onrender.com">click here</a>)</p>
+<p align="right">(<a href="https://math-magicians-2db8.onrender.com">Go live</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
